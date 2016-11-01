@@ -4,13 +4,6 @@ import math
 
 class Arrow:
 
-    LEFT_MOVE, RIGHT_MOVE = 0 , 1
-
-    #def handle_left_move(self):
-
-
-    #def handle_right_move(self):
-
     def __init__(self):
         self.image = load_image('res/arrow.png')
         self.x, self.y = 400, 140
