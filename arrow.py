@@ -1,12 +1,14 @@
 
 from pico2d import *
 import math
+import json
 
 class Arrow:
 
     def __init__(self):
         self.image = load_image('res/arrow.png')
         self.x, self.y = 400, 140
+
         #모든 변수 선언은 여기 self 붙여서
         self.degree = 0
         self.ax, self.ay = 0, 0
