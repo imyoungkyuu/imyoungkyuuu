@@ -6,6 +6,7 @@ from ball import Ball
 from block import Block
 from line import Line
 from arrow import Arrow
+from bonusball import Bonusball
 
 ball = None
 arrow = None
